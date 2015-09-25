@@ -49,12 +49,8 @@ En el caso de usar la conexión de red, conectar el cable Ethernet al Tanteador 
 
 # Control de la consola
 
-  First Header  | Second Header
-  ------------- | -------------
-  Content Cell  | Content Cell
-  Content Cell  | Content Cell
-
 La siguiente tabla muestra la combiación de teclas en la consola para modificar el tanteador.
+
 
  Combinación de teclas | Efecto  
  ------- | ------- 
