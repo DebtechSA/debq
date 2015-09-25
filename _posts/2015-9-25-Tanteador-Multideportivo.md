@@ -51,7 +51,7 @@ En el caso de usar la conexión de red, conectar el cable Ethernet al Tanteador 
 
 La siguiente tabla muestra la combiación de teclas en la consola para modificar el tanteador.
 |  Combinación de teclas | Efecto  |
-|:-:|:-:|
+| ------- | ------- |
 | Play/Pause  | Inicia o pausa el cronómetro  |
 | Reset Tiempo | Coloca el cronómetro en la cuenta inicial |
 | Local | Incrementa tantos local |
