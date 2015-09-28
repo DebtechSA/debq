@@ -17,6 +17,7 @@ Manual de usuario v1.1
 # Descripción de partes
 
 El Tanteador Multideportivo Debtech contiene los siguientes ítems:
+
  * Tanteador Multideportivo.
  * Consola para operación del dispositivo.
  * Cable mallado trifilar de 25 metros con fichas DIN para conectar la consola al tanteador.
