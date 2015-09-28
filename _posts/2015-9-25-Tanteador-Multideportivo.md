@@ -27,7 +27,11 @@ La figura 1 muestra el tanteador.
 
 La figura 2 muestra la consola de operaci贸n del dispositivo.
 
+![Fig. 2: Consola]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/consola.png)
+
 La figura 3 muestra el cable mallado trifilar de 25 metros.
+
+![Fig. 3: Cable RS485]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/cable_rs485.png)
 
 La figura 4 muestra el cable de red (Ethernet) de 10 metros.
 
@@ -38,9 +42,11 @@ La figura 5 muestra el CD con el software para operaci贸n del tanteador v铆a red
 Primero conectar el Tanteador Multidepotivo a la Consola mediante el cable trifilar mallado de 25 metros. 
 La figura 6 y 7 muestran como debe conectarse la consola al tanteador para su operaci贸n.
 
+![Fig. 7: Conexi髇 de RS485]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/conexion_consola_rs485.png)
 
 Luego alimentar la consola mediante la fuente. La figura 8 muestra esta conexi贸n.
 
+![Fig. 8: Conexi髇 de alimentaci髇]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/conexion_alimentacion.png)
 
 Alimentar el tanteador mediante la conexi贸n de la fuente a la red el茅ctrica.
 
