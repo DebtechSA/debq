@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Manual de usuario v1.1
+title: Tanteador Multideportivo
 ---
 
-Manual de usuario - Tanteador Multideportivo
+Manual de usuario v1.1
 
 ---
 
