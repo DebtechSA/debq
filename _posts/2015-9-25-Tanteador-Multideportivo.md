@@ -28,7 +28,7 @@ La figura 1 muestra el tanteador.
 
 La figura 2 muestra la consola de operación del dispositivo.
 
-
+![Fig. 2: Consola]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/consola.png)
 
 La figura 3 muestra el cable mallado trifilar de 25 metros.
 
