@@ -49,29 +49,26 @@ En el caso de usar la conexión de red, conectar el cable Ethernet al Tanteador 
 
 # Control de la consola
 
-La siguiente tabla muestra la combiación de teclas en la consola para modificar el tanteador.
+La siguiente lista muestra la combiación de teclas en la consola para modificar el tanteador:
 
-
- | Combinación de teclas | Efecto |
- | ------- | ------- |
- | Play/Pause  | Inicia o pausa el cronómetro |
- | Reset Tiempo | Coloca el cronómetro en la cuenta inicial |
- | Local | Incrementa tantos local |
- | Visitante | Incrementa tantos visitantes |
- | Período | Incrementa el período |
- | Campana | Hace sonar la campana |
- | Faltas L | Incrementa la cuenta de faltas local |
- | Faltas V | Incrementa la cuenta de faltas visitante |
- | Botón lateral 2 | Cambio de servicio |
- | Botón lateral 1 + Play/Pause | Incrementa los minutos de la cuenta inicial |
- | Botón lateral 1 + Reset Tiempo |  Incrementa los segundos de la cuenta inicial |
- | Botón lateral 1 + Local | Decrementa tantos local |
- | Botón lateral 1 + Visitante | Decrementa tantos visitante |
- | Botón lateral 1 + Período | Decrementa el período |
- | Botón lateral 1 + Campana | Hace sonar la campana |
- | Botón lateral 1 + Faltas L | Decrementa las faltas locales |
- | Botón lateral 1 + Faltas V | Decrementa las faltas visitantes |
- | Botón lateral 1 + Botón lateral 2 | Cambio de servicio |
+ * Play/Pause: Inicia o pausa el cronómetro.
+ * Reset Tiempo: Coloca el cronómetro en la cuenta inicial.
+ * Local: Incrementa tantos local.
+ * Visitante: Incrementa tantos visitantes.
+ * Período: Incrementa el período.
+ * Campana: Hace sonar la campana.
+ * Faltas L: Incrementa la cuenta de faltas local.
+ * Faltas V: Incrementa la cuenta de faltas visitante.
+ * Botón lateral 2: Cambio de servicio.
+ * Botón lateral 1 + Play/Pause: Incrementa los minutos de la cuenta inicial.
+ * Botón lateral 1 + Reset Tiempo:  Incrementa los segundos de la cuenta inicial.
+ * Botón lateral 1 + Local: Decrementa tantos local.
+ * Botón lateral 1 + Visitante: Decrementa tantos visitante.
+ * Botón lateral 1 + Período: Decrementa el período.
+ * Botón lateral 1 + Campana: Hace sonar la campana.
+ * Botón lateral 1 + Faltas L: Decrementa las faltas locales.
+ * Botón lateral 1 + Faltas V: Decrementa las faltas visitantes.
+ * Botón lateral 1 + Botón lateral 2: Cambio de servicio.
 
 # Control del software
 
