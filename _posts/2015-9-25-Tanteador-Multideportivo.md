@@ -105,7 +105,11 @@ Se debe elegir el puerto serie de la máquina donde se ejecuta el software a uti
 conectarse a la ficha DB9 con un cable (no provisto) serie al panel. Luego presionar el botón 
 "Configurar". En caso de error volver a repetir los pasos cuidadosamente.
 
+![softwareConfiguracion]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/SoftwareConfiguracion.png)
+
 Una vez configurado el panel, pasar a la pestaña "Widgets". Ver la siguiente figura.
+
+![softwareConfiguracion]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/SoftwareTanteador.png)
 
 Lo siguiente es seleccionar los campos que se desean enviar, y cargar los valores en ellos.
 Se debe notar que el campo del cronómetro tiene un campo seleccionable con la acción a 
