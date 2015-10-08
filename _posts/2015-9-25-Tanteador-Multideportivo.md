@@ -22,6 +22,7 @@ El Tanteador Multideportivo Debtech contiene los siguientes ítems:
  * Consola para operación del dispositivo.
  * Cable mallado trifilar de 25 metros con fichas DIN para conectar la consola al tanteador.
  * Cable de red (Ethernet) de 10 metros.
+ * Campana
  * CD con software para operación del tanteador.
 
 La figura 1 muestra el tanteador.
@@ -36,7 +37,11 @@ La figura 3 muestra el cable mallado trifilar de 25 metros.
 
 La figura 4 muestra el cable de red (Ethernet) de 10 metros.
 
-La figura 5 muestra el CD con el software para operación del tanteador vía red.
+![CableRJ45]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/CableRJ45.jpg)
+
+La figura 5 muestra la campana.
+
+![Campana]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/Capana.jpg)
 
 # Conexionado
 
@@ -45,14 +50,19 @@ La figura 6 y 7 muestran como debe conectarse la consola al tanteador para su op
 
 ![ConexionDeRS485]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/conexion_consola_rs485.jpg)
 
+![Conectores]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/Conectores.jpg)
+
 Luego alimentar la consola mediante la fuente. La figura 8 muestra esta conexión.
 
 ![ConexionDeAlimentación]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/conexion_alimentacion.jpg)
 
 Alimentar el tanteador mediante la conexión de la fuente a la red eléctrica.
 
+En el caso de usar la conexión de red, conectar el cable Ethernet al Tanteador Multideportivo como se muestra en la figura 7.
 
-En el caso de usar la conexión de red, conectar el cable Ethernet al Tanteador Multideportivo como muestra la figura 9.
+Para la campana, primero debemos abrirla y la bornera que tiene los cables marrón y celeste conectar la alimentación de 220VAC 50Hz. Conectar la fase al cable marrón y el neutro en el cable celeste. Luego, conectar los cables que vienen del tanteador en la otra bornera de cables blancos. Ante cualquier duda consultar con la espcificación adjunta en la caja de la campana.
+
+![CampanaAbierta]({{ site.url }}{{ site.baseurl }}/assets/user_manual/tanteador/CampanaAbierta.png)
 
 # Control de la consola
 
