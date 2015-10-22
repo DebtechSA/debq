@@ -11,10 +11,10 @@ Manual de usuario v1.0
 
  1. Descripción de la aplicación
  2. Configuración
- 	2.1. Modificación de nombres
- 	2.2. Configuración de conectividad
- 	2.3. Creación y modificación de textos dinámicos
- 	2.4. Actualización de tag desde archivo
+  * Modificación de nombres
+  * Configuración de conectividad
+  * Creación y modificación de textos dinámicos
+  * Actualización de tag desde archivo
  3. Envío de mensajes
  4. Textos Dinámicos
 
