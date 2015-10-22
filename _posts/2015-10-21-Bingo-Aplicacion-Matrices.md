@@ -37,7 +37,7 @@ La aplicación inicia en un navegador web y posee dos pantallas, "Envío de Mens
 
 ![Figura 2 - Configuración]({{ site.url }}{{ site.baseurl }}/assets/user_manual/bingo/config.jpg)
 
-#### Modificación de nombres
+### Modificación de nombres
 
 Los nombres de las matrices y secciones pueden editarse utlizando las opciones "Matriz" y "Secciones", como se ve en la siguiente figura.
 
@@ -51,7 +51,7 @@ En caso que exista un error se informará con la siguiente ventana:
 
 ![Figura 5 - Datos Incorrectos]({{ site.url }}{{ site.baseurl }}/assets/user_manual/bingo/names_error.jpg)
 
-#### Configuración de conectividad
+### Configuración de conectividad
 
 Los datos de conectividad de la matriz deben configurarse en la sección "Configuración" (ver siguiente figura). Al presionar en el botón "Guardar" se guardaran los datos en el servidor.
 
@@ -59,7 +59,7 @@ Los datos de conectividad de la matriz deben configurarse en la sección "Config
 
 Para enviar la configuración a la matriz, se debe seleccionar el puerto serie y presionar el botón "Enviar Configuración" (asegurarse de que el puerto de configuración de la matriz esté correctamente conectado a la PC). En caso de que se haya enviado correctamente o que existan errores en el envío se le indicará a través de una ventana.
 
-#### Creación y modificación de textos dinámicos
+### Creación y modificación de textos dinámicos
 
 Los textos dinámicos pueden crearse, editarse y eliminarse desde la sección "Tags". 
 
@@ -67,7 +67,7 @@ En el campo "Nombre" se debe ingresar el texto que identifica al tag, y en el ca
 
 ![Figura 7 - Tags]({{ site.url }}{{ site.baseurl }}/assets/user_manual/bingo/tags.jpg)
 
-#### Actualización de tag desde archivo
+### Actualización de tag desde archivo
 
 La aplicación permite seleccionar un tag para que puede actualizarse por medio de un archivo de texto externo. 
 En el campo "Tag" debe seleccionarse el texto dinamico a actualizar. En el campo "Frecuencia" se debe ingresar la frecuencia (en segundos) con la que la aplicación debe chequear el archivo. En el campo "Archivo" se debe ingresar la ruta en donde se encuentra el archivo de texto a chequear.
@@ -77,8 +77,9 @@ En el campo "Tag" debe seleccionarse el texto dinamico a actualizar. En el campo
 En el campo "Estado" se puede ver el estado de la tarea que chequea el archivo.
 
 Los estados posibles son:
+
  * Running: La tarea se encuentra corriendo.
- * Stopped: La tarea se ecnuentra detenida.
+ * Stopped: La tarea se encuentra detenida.
 
 Para actualizar los datos se debe presionar el botón "Guardar/Iniciar" (asegurarse de que la tarea se encuentre en estado detenido).
 
@@ -102,11 +103,12 @@ Al presionar el botón enviar, el mensaje se agregará en la cola para su poster
 
 El botón "Borrar Sección" sirve para borrar todo el contenido de la sección.
 
-#### Cola de mensajes
+### Cola de mensajes
 
 En la cola de mensajes se agregarán todos los mensajes a enviar. Una vez que los mensajes se envien, se actualizarán sus estados según el resultado del envío.
 
 Los estados pueden ser:
+
  * Pendiente: El mensaje está pendiente de ser enviado.
  * Mensaje enviado: El mensaje se envió correctamente.
  * Error: Ocurrió un error al intentar enviar el mensaje.
