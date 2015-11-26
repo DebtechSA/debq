@@ -57,7 +57,11 @@ Los datos de conectividad de la matriz deben configurarse en la sección "Config
 
 ![Figura 6 - Conectividad]({{ site.url }}{{ site.baseurl }}/assets/user_manual/bingo/connectivity.jpg)
 
-Para enviar la configuración a la matriz, se debe seleccionar el puerto serie y presionar el botón "Enviar Configuración" (asegurarse de que el puerto de configuración de la matriz esté correctamente conectado a la PC). En caso de que se haya enviado correctamente o que existan errores en el envío se le indicará a través de una ventana.
+Para enviar la configuración a la matriz, se debe configurar la ip y el puerto actual de la matriz (ver siguiente figura) y luego presionar el botón "Enviar Configuración". En caso de que se haya enviado correctamente o que existan errores en el envío se le indicará a través de una ventana.
+
+![Figura 6 - Enviar configuración]({{ site.url }}{{ site.baseurl }}/assets/user_manual/bingo/connectivity_send.jpg)
+
+IMPORTANTE: En el caso que se quiera configurar por primera vez y la ip actual de la matriz no se encuentre en el rango de la red local, se deberá conectar directamente a la pc y configurar la pc con una ip fija en el mismo rango.
 
 ### Creación y modificación de textos dinámicos
 
@@ -95,9 +99,9 @@ Se debe seleccionar la matriz y la sección a la que se desea enviar el mensaje,
 
 ![Figura 10 - Mensajes]({{ site.url }}{{ site.baseurl }}/assets/user_manual/bingo/messages.jpg)
 
-En el campo "Tipo" se debe seleccionar el tipo de efecto que se le quiere dar al texto (quito, movil, quieto con colores invertidos o movil con colores invertidos). 
+En el campo "Tipo" se debe seleccionar el tipo de efecto que se le quiere dar al texto (quieto, movil, movil invertido, arriba, abajo). 
 
-En el campo "Tiempo/Velocidad" se debe ingresar la velocidad del texto, en el caso que se trate de un texto móvil, o el tiempo de visualización, en el caso que se trate de un texto quieto.
+En el campo "Velocidad" se debe ingresar la velocidad del efecto y en el campo "Tiempo" el tiempo en que permanece estático después de realizar el efecto.
 
 Al presionar el botón enviar, el mensaje se agregará en la cola para su posterior envío.
 
@@ -115,7 +119,7 @@ Los estados pueden ser:
 
 ![Figura 11 - Cola de mensajes]({{ site.url }}{{ site.baseurl }}/assets/user_manual/bingo/queue.jpg)
 
-Cada mensaje posee un botón "Borrar" que sirve para quitarlo de la cola. En el caso de que se deseen borrar todos los mensajes, se debe presionar en el botón "Limpiar".
+Cada mensaje posee un botón "Borrar" que sirve para quitarlo de la cola y un botón "Reenviar". En el caso de que se deseen borrar todos los mensajes, se debe presionar en el botón "Limpiar".
 
 # Textos Dinámicos
 
