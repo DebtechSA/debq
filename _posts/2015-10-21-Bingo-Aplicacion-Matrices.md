@@ -105,6 +105,8 @@ En el campo "Velocidad" se debe ingresar la velocidad del efecto y en el campo "
 
 Al presionar el botón enviar, el mensaje se agregará en la cola para su posterior envío.
 
+IMPORTANTE: En el caso que se quiera centrar el texto, hay que hacerlo manualmente agregando espacios delante del texto. Para agregarlos hay que anteponer el caracter '\'. Por ejemplo: "\    Debtech".
+
 El botón "Borrar Sección" sirve para borrar todo el contenido de la sección.
 
 ### Cola de mensajes
