@@ -112,7 +112,6 @@ Por ejemplo, para enviar el texto "debtech" se debe enviar los siguientes bytes 
  * BlockLen --> 0x00 0x00
  * BlockAddr --> 0x00 0x00 0x00 0x00
  * Data
-
    * FileType --> 0x00
    * FileName --> 0x50 0x30 0x30 0x31 --> "P001"
    * FileLen --> 0x40 0x00 0x00 0x00 --> Longitud de 'Data' (primeros los bytes menos significativos)
@@ -125,7 +124,6 @@ Por ejemplo, para enviar el texto "debtech" se debe enviar los siguientes bytes 
    * AreaNum --> 0x00
    * AreaDataLen0 --> 0x22 0x00 0x00 0x00 --> Longitud del 'AreaData' (primeros los bytes menos significativos)
    * AreaData0
-
      * AreaType --> 0x00
      * AreaX --> 0x00 0x00 --> Coordenada X = 0px (Se cuenta de a 8 bits)
      * AreaY --> 0x00 0x00 --> Coordenada Y = 0px (Se cuenta de a 1 bit)
@@ -144,7 +142,6 @@ Por ejemplo, para enviar el texto "debtech" se debe enviar los siguientes bytes 
      * StayTime --> 0x00
      * DataLen --> 0x07 0x00 0x00 0x00 --> Longitud del texto (primeros los bytes menos significativos)
      * Data --> 0x64(d) 0x65(e) 0x62(b) 0x74(t) 0x65(e) 0x63(c) 0x68(h) --> Texto (debtech)
-
    * Crc --> 0x00 0x00
 
 # 2. Ejemplos en Java
