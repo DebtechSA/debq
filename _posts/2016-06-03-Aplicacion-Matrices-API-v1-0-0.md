@@ -40,7 +40,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     [
       {
@@ -61,7 +61,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     [
       {
@@ -86,7 +86,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     {
       "id": "Id de la matriz",
@@ -112,7 +112,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "id" : "Id de la matriz",
@@ -125,7 +125,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
       "height" : "Alto"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "id" : 1,
@@ -151,7 +151,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
         "name" : "Nombre",
@@ -160,7 +160,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
         "height" : "Alto"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "name" : "Matriz Test",
@@ -187,7 +187,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     [
       {
@@ -225,7 +225,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     [
       {
@@ -239,7 +239,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
       ...
     ]
 
- * Ejemplo:
+Ejemplo:
 
     [
       {
@@ -269,7 +269,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     {
       "id": "Id de la configuración",
@@ -303,7 +303,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "ip": "Dirección IP",
@@ -313,7 +313,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
       "mac": "Dirección MAC"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "ip" : "172.16.100.30",
@@ -334,7 +334,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     [
       {
@@ -368,7 +368,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     {
       "id": "Id de la sección",
@@ -403,7 +403,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "id": "Id de la sección",
@@ -415,7 +415,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
       "endColumn": "Columna final"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "id": 1,
@@ -440,7 +440,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "matrix": "Id de la matriz asociada",
@@ -452,7 +452,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
       "endColumn": "Columna final"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "matrix": 1,
@@ -484,7 +484,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     [
       {
@@ -518,7 +518,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     {
       "id": "Id de la configuración",
@@ -552,7 +552,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "id" : "Id de la configuración",
@@ -563,7 +563,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
       "mac": "Dirección MAC"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "id" : 1,
@@ -587,7 +587,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "matrix" : "Id de la matriz asociada",
@@ -598,7 +598,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
       "mac": "Dirección MAC"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "matrix" : 1,
@@ -631,14 +631,14 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "serial" : "Puerto serie",
       "id" : "Id de configuración"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "serial" : "/dev/ttyUSB0",
@@ -658,14 +658,14 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "ip" : "Dirección IP",
       "port" : "Puerto"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "ip" : "172.16.100.30",
@@ -683,7 +683,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     [
       {
@@ -727,7 +727,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
  * Http Action: Get
 
- * Respuesta:
+Respuesta:
 
     {
       "id": "Id del mensaje",
@@ -781,7 +781,7 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "section" : "Id de sección",
@@ -878,7 +878,7 @@ Tipo Grupo:
    * ContentType : "application/json"
    * Accept : "application/json"
 
- * Body:
+Body:
 
     {
       "id" : "Id de matriz",
@@ -888,7 +888,7 @@ Tipo Grupo:
       "height" : "Alto de fuente"
     }
 
- * Ejemplo:
+Ejemplo:
 
     {
       "id" : 1,
