@@ -3,7 +3,7 @@ layout: post
 title: Aplicación Matrices - API v1.0.0
 ---
 
-Manual de usuario v1.0
+Manual técnico v1.0
 
 ---
 
@@ -34,13 +34,14 @@ La aplicación permite la comunicacion y el envío de mensajes a las matrices de
 
 #### Devices All 
 
-Descripcion: Devuelve todos los dispositivos disponibles
+ * Descripcion: Devuelve todos los dispositivos disponibles
 
-Url: /devices/all
+ * Url: /devices/all
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     [
       {
         "name":"Nombre del dispositivo",
@@ -54,13 +55,14 @@ Respuesta:
 
 #### Matrix All 
 
-Descripcion: Devuelve todas las matrices guardadas
+ * Descripcion: Devuelve todas las matrices guardadas
 
-Url: /matrix/all
+ * Url: /matrix/all
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     [
       {
         "id": "Id de la matriz",        
@@ -78,13 +80,14 @@ Respuesta:
 
 #### Matrix Get 
 
-Descripcion: Devuelve las matriz especificada
+ * Descripcion: Devuelve las matriz especificada
 
-Url: /matrix/:id
+ * Url: /matrix/:id
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     {
       "id": "Id de la matriz",
       "device":{
@@ -99,17 +102,18 @@ Respuesta:
 
 #### Matrix Edit 
 
-Descripcion: Edita los datos de la matriz especificada
+ * Descripcion: Edita los datos de la matriz especificada
 
-Url: /matrix/edit
+ * Url: /matrix/edit
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "id" : "Id de la matriz",
       "device":{
@@ -121,7 +125,8 @@ Body:
       "height" : "Alto"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "id" : 1,
       "device":{
@@ -136,17 +141,18 @@ Ejemplo:
 
 #### Matrix Create 
 
-Descripcion: Crea una matriz
+ * Descripcion: Crea una matriz
 
-Url: /matrix/create
+ * Url: /matrix/create
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
         "name" : "Nombre",
         "device":"Nombre del dispositivo",
@@ -154,7 +160,8 @@ Body:
         "height" : "Alto"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "name" : "Matriz Test",
       "device":"Debtech PC",
@@ -165,22 +172,23 @@ Ejemplo:
 
 #### Matrix Delete 
 
-Descripcion: Elimina la matriz especificada
+ * Descripcion: Elimina la matriz especificada
 
-Url: /matrix/:id
+ * Url: /matrix/:id
 
-Http Action: Delete
+ * Http Action: Delete
 
 
 #### Matrix Sections 
 
-Descripcion: Devuelve todas las secciones asociadas a la matriz especificada
+ * Descripcion: Devuelve todas las secciones asociadas a la matriz especificada
 
-Url: /matrix/:id/sections
+ * Url: /matrix/:id/sections
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     [
       {
         "id": "Id de la sección",
@@ -207,17 +215,18 @@ Respuesta:
 
 #### Matrix Section Create 
 
-Descripcion: Crea las secciones especificadas en el array
+ * Descripcion: Crea las secciones especificadas en el array
 
-Url: /matrix/:id/sections
+ * Url: /matrix/:id/sections
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     [
       {
         "name": "Nombre de la sección",
@@ -230,7 +239,8 @@ Body:
       ...
     ]
 
-Ejemplo:
+ * Ejemplo:
+
     [
       {
         "name": "Sección 1",
@@ -253,13 +263,14 @@ Ejemplo:
 
 #### Matrix Config 
 
-Descripcion: Devuelve la configuración asociada a la matriz
+ * Descripcion: Devuelve la configuración asociada a la matriz
 
-Url: /matrix/:id/config
+ * Url: /matrix/:id/config
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     {
       "id": "Id de la configuración",
       "matrix": {
@@ -282,17 +293,18 @@ Respuesta:
 
 #### Matrix Config Create 
 
-Descripcion: Crea la configuración de la matriz especificada
+ * Descripcion: Crea la configuración de la matriz especificada
 
-Url: /matrix/:id/config
+ * Url: /matrix/:id/config
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "ip": "Dirección IP",
       "netmask": "Mascara de subred",
@@ -301,7 +313,8 @@ Body:
       "mac": "Dirección MAC"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "ip" : "172.16.100.30",
       "netmask" : "255.255.255.0",
@@ -315,13 +328,14 @@ Ejemplo:
 
 #### Section All 
 
-Descripcion: Devuelve todas las secciones guardadas
+ * Descripcion: Devuelve todas las secciones guardadas
 
-Url: /sections/all
+ * Url: /sections/all
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     [
       {
         "id": "Id de la sección",
@@ -348,13 +362,14 @@ Respuesta:
 
 #### Section Get 
 
-Descripcion: Devuelve las sección especificada
+ * Descripcion: Devuelve las sección especificada
 
-Url: /sections/:id
+ * Url: /sections/:id
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     {
       "id": "Id de la sección",
       "matrix": {
@@ -378,17 +393,18 @@ Respuesta:
 
 #### Section Edit 
 
-Descripcion: Edita los datos de la sección especificada
+ * Descripcion: Edita los datos de la sección especificada
 
-Url: /sections/edit
+ * Url: /sections/edit
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "id": "Id de la sección",
       "name": "Nombre de la sección",
@@ -399,7 +415,8 @@ Body:
       "endColumn": "Columna final"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "id": 1,
       "name": "Sección 1",
@@ -413,17 +430,18 @@ Ejemplo:
 
 #### Section Create 
 
-Descripcion: Crea una sección
+ * Descripcion: Crea una sección
 
-Url: /sections/create
+ * Url: /sections/create
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "matrix": "Id de la matriz asociada",
       "name": "Nombre de la sección",
@@ -434,7 +452,8 @@ Body:
       "endColumn": "Columna final"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "matrix": 1,
       "name": "Sección 1",
@@ -448,24 +467,25 @@ Ejemplo:
 
 #### Section Delete 
 
-Descripcion: Elimina la sección especificada
+ * Descripcion: Elimina la sección especificada
 
-Url: /sections/:id
+ * Url: /sections/:id
 
-Http Action: Delete
+ * Http Action: Delete
 
 
 ### Configuración
 
 #### Config All 
 
-Descripcion: Devuelve todas las configuraciones guardadas
+ * Descripcion: Devuelve todas las configuraciones guardadas
 
-Url: /config/all
+ * Url: /config/all
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     [
       {
         "id": "Id de la sección",
@@ -492,13 +512,14 @@ Respuesta:
 
 #### Config Get 
 
-Descripcion: Devuelve la configuración especificada
+ * Descripcion: Devuelve la configuración especificada
 
-Url: /config/:id
+ * Url: /config/:id
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     {
       "id": "Id de la configuración",
       "matrix": {
@@ -521,17 +542,18 @@ Respuesta:
 
 #### Config Edit 
 
-Descripcion: Edita los datos de la configuración especificada
+ * Descripcion: Edita los datos de la configuración especificada
 
-Url: /config/edit
+ * Url: /config/edit
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "id" : "Id de la configuración",
       "ip": "Dirección IP",
@@ -541,7 +563,8 @@ Body:
       "mac": "Dirección MAC"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "id" : 1,
       "ip" : "172.16.100.30",
@@ -554,17 +577,18 @@ Ejemplo:
 
 #### Config Create 
 
-Descripcion: Crea una configuración
+ * Descripcion: Crea una configuración
 
-Url: /config/create
+ * Url: /config/create
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "matrix" : "Id de la matriz asociada",
       "ip": "Dirección IP",
@@ -574,7 +598,8 @@ Body:
       "mac": "Dirección MAC"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "matrix" : 1,
       "ip" : "172.16.100.30",
@@ -587,32 +612,34 @@ Ejemplo:
 
 #### Config Delete 
 
-Descripcion: Elimina la configuración especificada
+ * Descripcion: Elimina la configuración especificada
 
-Url: /config/:id
+ * Url: /config/:id
 
-Http Action: Delete
+ * Http Action: Delete
 
 
 #### Config Send Serial (Dispositivos Debtech)
 
-Descripcion: Envía la configuración por puerto serie
+ * Descripcion: Envía la configuración por puerto serie
 
-Url: /config/send
+ * Url: /config/send
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "serial" : "Puerto serie",
       "id" : "Id de configuración"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "serial" : "/dev/ttyUSB0",
       "id" : 1
@@ -621,23 +648,25 @@ Ejemplo:
 
 #### Config Send Ethernet (Dispositivos Onbon)
 
-Descripcion: Envía la configuración por puerto ethernet
+ * Descripcion: Envía la configuración por puerto ethernet
 
-Url: /config/send
+ * Url: /config/send
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "ip" : "Dirección IP",
       "port" : "Puerto"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "ip" : "172.16.100.30",
       "port" : 5002
@@ -648,13 +677,14 @@ Ejemplo:
 
 #### Queue All 
 
-Descripcion: Devuelve todos los mensajes en cola
+ * Descripcion: Devuelve todos los mensajes en cola
 
-Url: /queue/all
+ * Url: /queue/all
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     [
       {
         "id": "Id del mensaje",
@@ -691,13 +721,14 @@ Respuesta:
 
 #### Queue Get 
 
-Descripcion: Devuelve un mensaje específico
+ * Descripcion: Devuelve un mensaje específico
 
-Url: /queue/:id
+ * Url: /queue/:id
 
-Http Action: Get
+ * Http Action: Get
 
-Respuesta:
+ * Respuesta:
+
     {
       "id": "Id del mensaje",
       "datetime": "Timestamp",
@@ -731,26 +762,27 @@ Respuesta:
 
 #### Queue Delete 
 
-Descripcion: Elimina el mensaje
+ * Descripcion: Elimina el mensaje
 
-Url: /queue/:id
+ * Url: /queue/:id
 
-Http Action: Delete
+ * Http Action: Delete
 
 
 #### Queue Add 
 
-Descripcion: Agreaga un mensaje en la cola
+ * Descripcion: Agreaga un mensaje en la cola
 
-Url: /queue/add
+ * Url: /queue/add
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "section" : "Id de sección",
       "data" : "Mensaje"
@@ -759,6 +791,7 @@ Body:
 El mensaje en el campo "data" puede ser un string o un json segun el tipo de mensaje:
 
 Tipo Texto:
+
     {
       "type" : "F",
       "option" : "Opciones de efecto (q, Q, m, M, u, d)",
@@ -768,17 +801,20 @@ Tipo Texto:
     }
 
 Tipo Borrar pantalla:
+
     {
       "type" : "b"
     }
 
 Tipo Brillo (dispositivos Onbon):
+
     {
       "type" : "B",
       "value" : "Valor de brillo (0 - 10)"
     }
 
 Tipo Turnero (turnero Debtech):
+
     {
       "type" : "T",
       "option" : "Acción (s, r, i, d)",
@@ -787,6 +823,7 @@ Tipo Turnero (turnero Debtech):
     }
 
 Tipo Contador (contador Debtech):
+
     {
       "type" : "C",
       "option" : "Acción (i, d)",
@@ -794,6 +831,7 @@ Tipo Contador (contador Debtech):
     }
 
 Tipo Grupo:
+
     {
       "type" : "G",
       "widgets": [{
@@ -806,13 +844,15 @@ Tipo Grupo:
       ...]
     }
 
-Ejemplo 1:
+ * Ejemplo 1:
+
     {
       "section" : 1,
       "data" : "Ts*N0001*P0001*"
     }
 
-Ejemplo 2:
+ * Ejemplo 2:
+
     {
       "section" : 1,
       "data" : {
@@ -828,17 +868,18 @@ Ejemplo 2:
 
 #### Font Send (Dispositivos Onbon)
 
-Descripcion: Envía un archivo de fuente
+ * Descripcion: Envía un archivo de fuente
 
-Url: /config/font
+ * Url: /config/font
 
-Http Action: Post
+ * Http Action: Post
 
-Headers:
-  * ContentType : "application/json"
-  * Accept : "application/json"
+ * Headers:
+   * ContentType : "application/json"
+   * Accept : "application/json"
 
-Body:
+ * Body:
+
     {
       "id" : "Id de matriz",
       "file" : "Archivo de fuente leído como binario",
@@ -847,7 +888,8 @@ Body:
       "height" : "Alto de fuente"
     }
 
-Ejemplo:
+ * Ejemplo:
+
     {
       "id" : 1,
       "file" : "",
