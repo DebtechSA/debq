@@ -21,7 +21,6 @@ El equipo permite la captura de una señal de corriente de 4mA a 20mA de un sens
  * Visualización de datos de meta y gramaje de 3 dígitos.
  * Control remoto para configuración de cero y máximo.
  * Control remoto para configuración de meta y gramaje.
- * Actualización de tag por medio de archivo de texto
 
 ![Figura 1 - Equipo]({{ site.url }}{{ site.baseurl }}/assets/user_manual/unionpel/Equipo.png)
 
